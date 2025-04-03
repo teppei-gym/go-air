@@ -1,0 +1,12 @@
+services:
+  playground:
+    container_name: 'golang'
+    hostname: 'golang'
+    build: .
+    restart: always
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - type: bind
+        source: ../workspace
+        target: /workspace
