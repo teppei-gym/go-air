@@ -6,11 +6,6 @@
 [golang:latest](https://hub.docker.com/_/golang)
 を利用。最小限の環境としている。
 
-追加で以下をインストールしている
-
-* `git`
-* `curl`
-
 実行ユーザ:`vscode`  
 ワークスペース:`/workspace`  
 
